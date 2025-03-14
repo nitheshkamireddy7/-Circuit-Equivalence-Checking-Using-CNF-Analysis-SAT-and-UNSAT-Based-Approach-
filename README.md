@@ -1,10 +1,12 @@
 # Circuit Equivalence Checking Using CNF Analysis
 
+**Author: [Nithesh Kamireddy(nitheshkamireddy2024@gmail.com]**
+
 ## Overview
 This document explains how to verify the equivalence of combinational circuits using CNF (Conjunctive Normal Form) analysis with a SAT solver. The approach involves creating two circuits, converting them into CNF form, and using a SAT solver to determine whether they are equivalent or not.
 
 ## Process Overview
-1. **Circuit Creation**:
+1. **Circuit Creation**: 
    - Circuit C1 is designed using 15 logic gates.
    - Circuit C2 is identical to C1 except for the output gate.
 
@@ -71,4 +73,3 @@ Each logic gate can be represented as a CNF formula with input and output variab
    - SAT solver checks if a satisfying assignment exists.
 
 By following this approach, we can systematically verify circuit equivalence using CNF and SAT analysis.
-
